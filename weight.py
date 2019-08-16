@@ -1,4 +1,3 @@
-
 # Variables
 
 # pounds, feet
@@ -35,7 +34,7 @@ tractor_xbar = (tractor_wheelbase * tractor_steers) / tractor_total
 
 # Choose load location, distance from trailer tandems
 # load_xbar = 20.5
-load_xbar = 12
+load_xbar = 20
 
 # Loaded trailer:
 
@@ -51,6 +50,6 @@ nf_drives = nf_kingpin + tractor_total - nf_steers
 # Solve for normal force on loaded trailer tandems, B
 nf_trlr_tandems = load + trac_trlr_total - nf_drives - nf_steers
 
-print("Steers: ", nf_steers)
-print("Drives: ", nf_drives)
-print("Trailer Tandems: ", nf_trlr_tandems)
+print("Steers: ", round(nf_steers))
+print("Drives: ", round(nf_drives))
+print("Trailer Tandems: ", round(nf_trlr_tandems))
