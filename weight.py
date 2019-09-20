@@ -1,6 +1,6 @@
 # Variables
 
-# pounds, feet
+# weights, pounds; distance, feet
 tractor_total = 21000
 tractor_steers = 11800
 tractor_drives = 9200
@@ -32,9 +32,8 @@ trlr_xbar = kingpin_dist - ((kingpin_dist * trlr_tandems) / trlr_weight)
 # Find centroid of tractor
 tractor_xbar = (tractor_wheelbase * tractor_steers) / tractor_total
 
-# Choose load location, distance from trailer tandems
-# load_xbar = 20.5
-load_xbar = 20
+# Choose center-of-load location, distance from trailer tandems
+load_xbar = 20.5
 
 # Loaded trailer:
 
